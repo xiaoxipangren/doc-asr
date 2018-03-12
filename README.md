@@ -14,8 +14,6 @@
 sudo docker pull registry.cn-hangzhou.aliyuncs.com/nationalchip/asr:jieba
 ```
 
-_提示：镜像较大，推荐使用阿里云的镜像加速服务，具体参考_[_http://blog.csdn.net/yp090416/article/details/75107938_](http://blog.csdn.net/yp090416/article/details/75107938)
-
 # 运行容器
 
 ```bash
@@ -28,7 +26,6 @@ sudo docker rm asr
 
 #以asr为容器名运行该镜像
 sudo docker run --name asr -dit asr:jieba
-
 ```
 
 # 执行Asr tool
@@ -55,7 +52,6 @@ $:exit
 #拷贝结果到本地
 sudo docker cp asr:/asr/data/search_Graph/words.txt ./
 sudo docker cp asr:/asr/data/search_Graph/TLG.txt ./
-
 ```
 
 
