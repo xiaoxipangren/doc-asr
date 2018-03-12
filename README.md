@@ -46,7 +46,8 @@ $:cat README
 $:./run.sh text
 
 #训练结果保存在/asr/data/search_Graph中，包括words.txt TLG.fst两个文件
-#退出容器
+#训练时间视机器配置和语料的大小而定
+#当训练完成后退出容器
 $:exit
 
 #拷贝结果到本地
