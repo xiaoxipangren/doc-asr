@@ -42,7 +42,7 @@ $:cd /asr
 #查看asr tool简易帮组文档
 $:cat README
 
-#调用asr工具训练，
+#调用asr工具训练
 $:./run.sh text
 
 #训练结果保存在/asr/data/search_Graph中，包括words.txt TLG.fst两个文件
