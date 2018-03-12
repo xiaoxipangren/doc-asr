@@ -39,7 +39,7 @@ sudo docker exec -it asr bash
 
 #$:开头的命令为容器内命令
 $:cd /asr
-#查看asr tool简易帮组文档
+#查看asr tool帮助文档
 $:cat README
 
 #调用asr工具训练
