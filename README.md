@@ -37,7 +37,7 @@ sudo docker cp text asr:/asr/
 #直接进入容器内部，调用asr工具
 sudo docker exec -it asr bash
 
-#以下命令为容器内命令
+#$:开头的命令为容器内命令
 $:cd /asr
 #查看asr tool简易帮组文档
 $:cat README
