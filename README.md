@@ -42,7 +42,7 @@ $:cd /asr
 #查看asr tool帮助文档
 $:cat README
 
-#调用asr工具训练
+#调用asr工具训练语料
 #text文上述传入的语料文件，可随意命名
 $:./run.sh text
 
