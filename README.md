@@ -31,7 +31,7 @@ sudo docker run --name asr -dit asr:jieba
 # 执行Asr tool
 
 ```bash
-#拷贝语料，text为文本格式的按行分割关键词或语句的语料文件
+#拷贝语料到容器内，text为文本格式的按行分割关键词或语句的语料文件
 sudo docker cp text asr:/asr/
 
 #直接进入容器内部，调用asr工具
